@@ -1,7 +1,7 @@
 const Telegraf = require ('telegraf');
 const axios = require('axios');
-const bot = new Telegraf('1450014790:AAEfRBLstD5GJwnDOa2tr0YLEBNh-ckGNJ0');
-const apikey = "5835cb5c4eb39c304066636da090c9003235eda852ec2edb0fec327200e8561b";
+const bot = new Telegraf('bot key here');
+const apikey = "API key here";
 bot.command('start', ctx => {
   sendStartMessage(ctx);
 })
